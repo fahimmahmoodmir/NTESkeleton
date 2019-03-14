@@ -1,0 +1,38 @@
+{
+	"name": "NTESkeleton",
+	"version": "1.0.0",
+	"description": "A Simple Express.JS based Skelton for starting up with the projects.",
+	"dependencies": {
+		"body-parser": "1.18.3",
+		"cors": "2.8.5",
+		"dotenv": "6.2.0",
+		"express": "4.16.4"
+	},
+	"devDependencies": {
+		"chai": "4.2.0",
+		"chai-http": "4.2.1",
+		"chai-iterator": "3.0.2",
+		"chai-sorted": "0.2.0",
+		"chai-subset": "1.6.0",
+		"mocha": "6.0.2"
+	},
+	"scripts": {
+		"start": "node app.js",
+		"test": "mocha --recursive"
+	},
+	"private": true,
+	"engines": {
+		"node": "10.13.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fahimmahmoodmir/NTESkeleton.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fahimmahmoodmir/NTESkeleton/issues"
+	},
+	"homepage": "https://github.com/fahimmahmoodmir/NTESkeleton#readme"
+}
